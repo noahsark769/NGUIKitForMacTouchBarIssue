@@ -24,6 +24,7 @@
 		A1D3E5B122CBB7D800EF023F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1D3E5B422CBB7D800EF023F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1D3E5B622CBB7D800EF023F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D3E5BC22CBB82000EF023F /* NGUIKitForMacTouchBarIssue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NGUIKitForMacTouchBarIssue.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		A1D3E5A722CBB7D600EF023F /* NGUIKitForMacTouchBarIssue */ = {
 			isa = PBXGroup;
 			children = (
+				A1D3E5BC22CBB82000EF023F /* NGUIKitForMacTouchBarIssue.entitlements */,
 				A1D3E5A822CBB7D600EF023F /* AppDelegate.swift */,
 				A1D3E5AA22CBB7D600EF023F /* SceneDelegate.swift */,
 				A1D3E5AC22CBB7D600EF023F /* ViewController.swift */,
@@ -284,7 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NGUIKitForMacTouchBarIssue/NGUIKitForMacTouchBarIssue.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = 29P3YRFLV5;
 				INFOPLIST_FILE = NGUIKitForMacTouchBarIssue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,6 +297,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.noahgilmore.NGUIKitForMacTouchBarIssue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,7 +307,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NGUIKitForMacTouchBarIssue/NGUIKitForMacTouchBarIssue.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = 29P3YRFLV5;
 				INFOPLIST_FILE = NGUIKitForMacTouchBarIssue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.noahgilmore.NGUIKitForMacTouchBarIssue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
