@@ -12,3 +12,5 @@ The second window should close normally and only the original window should be v
 
 Actual:
 The second window shows a black background and momentarily stalls, then closes normally
+
+Note: If you return `nil` from the touchbar computed var in `ViewController`, the issue does not happen.
